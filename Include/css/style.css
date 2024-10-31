@@ -1,0 +1,224 @@
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+
+#ppw_loader {
+	margin: 20px 0px;
+}
+
+#ppw_loader .loader-icon {
+	height: 32px;
+    width: 32px;
+    margin: 0 auto;
+    border-bottom: 3px solid #0C121C;
+    border-left: 3px solid #0C121C;
+    border-right: 3px solid #CCC;
+    border-top: 3px solid #0C121C;
+    border-radius: 100%;
+    -webkit-animation: spin .4s linear infinite !important;
+    animation: spin .4s linear infinite !important;
+}
+
+.popupbg {
+	background: rgba(0,0,0,0.7);
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 999;
+}
+
+.makepopupscroll {
+	overflow-y: scroll;
+}
+
+.popupcontent {
+	background-color: #ffffff;
+	width: 380px;
+	margin: 80px auto 0;
+	z-index: 9999;
+	color: #333333 !important;
+}
+
+.popupcontentcontainer {
+	padding: 0px 30px 30px 30px;
+	color: #333333 !important;
+}
+.closeviewoptions {
+	float: right;
+    padding: 10px 16px 17px !important;
+    background-color: #333 !important;
+    border-radius: 50% !important;
+    color: #ffffff !important;
+    font-family: 'Calibri' !important;
+    font-size: 24px !important;
+    margin: 15px !important;
+    line-height: 15px;
+	text-decoration: none !important;
+}
+
+.closeviewoptions:hover {
+	text-decoration: none !important;
+	color: #ffffff !important;
+}
+
+.noscroll {
+	overflow: hidden !important;
+}
+
+.makepopupscroll {
+	overflow-y: scroll;
+}
+
+.ppw_suburb_result {
+	padding: 10px 5px;
+    border-bottom: solid 1px #e3e3e3;
+	cursor: pointer;
+}
+
+.ppw_suburb_result:hover {
+	background: #e3e3e3;
+}
+
+.popupresult h4 {
+	padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.popupresult a {
+	margin-bottom: 10px;
+    background: #e3e3e3;
+    color: #333333;
+    padding: 15px;
+    margin-top: 25px;
+    display: block;
+    width: 79px;
+}
+
+.popupresult a:hover {
+	background: #333333;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.suburb_list {
+	margin: 15px 0px;
+}
+
+.ppw_suburb {
+	cursor: pointer;
+}
+
+#ppw .adminBlock {
+	background-color: #fff;
+	padding: 20px;
+	border: solid 1px #ccc;
+	margin: 0px;
+}
+
+#ppw form input[type="text"], #ppw form input[type="password"], #ppw form input[type="email"], #ppw form.mb-li input[type="password"], #ppw textarea, #ppw form select {
+    border: 1px solid #636363;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    width: 350px;
+}
+
+#ppw_create_waybill input[type="text"].BorderRed, #ppw_create_waybill input[type="number"].BorderRed, #ppw_create_waybill input[type="email"].BorderRed, #ppw_create_waybill textarea.BorderRed, #ppw_create_waybill select.BorderRed {
+    border: 2px solid red !important;
+}
+
+#ppw_create_waybill input[type="text"] {
+	width: 100%;
+	margin: 5px 0px;
+	float: none;
+}
+
+#ppw_create_waybill table td {
+	vertical-align: top;
+}
+
+#ppw_create_waybill table#ppw_shipping_contents th {
+	font-size: 10px;
+	border-bottom: solid 1px #333333;
+	text-align: left;
+	padding: 5px 0px;
+}
+
+#ppw_create_waybill table#ppw_shipping_contents td {
+	font-size: 10px;
+	border-bottom: dotted 1px #cccccc;
+	text-align: left;
+	padding: 5px 0px;
+}
+
+#ppw .alert {
+	position: relative;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+
+#ppw .alert-success {
+	color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+
+#ppw .alert-danger {
+	color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+#ppw .ppw_waybill_item {
+	line-height: 30px;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+#ppw .ppw_waybill_item a {
+	float: right;
+	margin-left: 2px;
+	font-weight: normal;
+}
+
+#ppw .ppw_waybill_date_print {
+	font-size: 10px !important;
+	font-style: italic;
+	line-height: 10px;
+}
+
+#ppw .ppw_waybill_date_print a {
+	float: right;
+	text-decoration: none;
+}
+
+.ppqad_suburb p {
+	margin: 3px 0px;
+}
+
+#ppw .ts-wrapper {
+	width: 350px;
+	margin-left: 5px;
+}
+
+.ts-dropdown .spinner {
+	float: none !important;
+	visibility: visible !important;
+	background: none !important;
+	opacity: 1 !important;
+}
+
+#ppw_create_waybill_details select {
+	width: 100%;
+}
